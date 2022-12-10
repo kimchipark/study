@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>Insert title here</title>
+	</head>
+	<body>
+	<form method="get" action="./web06.html">
+		<table border="1" width="600">
+		<tr>
+			<td colspan="2">필수입력사항</td>
+		</tr>
+		<tr>
+			<td>회원아이디</td>
+			<td>
+				<input type="text" name="id"> 
+				이용가능한 회원아이디입니다.
+			</td>
+		</tr>
+		<tr>
+			<td>비밀번호</td>
+			<td>
+				<input type="password" name="ps">
+				 - 6~12자 이내 (영문, 숫자조합)
+			</td>
+		</tr>
+		<tr>
+			<td>비밀번호 확인</td>
+			<td>
+				<input type="password" name="ps">
+			</td>
+		</tr>
+		<tr>
+			<td>성명</td>
+			<td>
+				<input type="text" name="na">
+			</td>
+		</tr>
+		<tr>
+			<td>주민번호 </td>
+			<td>
+				<input type="text"> 
+				- 
+				<input type="password">
+			</td>
+		</tr>
+		<tr>
+			<td>이메일</td>
+			<td>
+				<input type="text"> 
+				@ 
+				<input type="text" name="em"> 
+				<select name="a">
+					<option>직접입력</option>
+					<option>naver.com</option>
+					<option>daum.net</option>
+					<option>gmail.com</option>
+				</select>
+				<br>
+				-비밀번호 분실시 필요합니다. 정확히 입력하세요.
+			</td>
+		</tr>
+		<tr>
+			<td>휴대폰</td>
+			<td>
+			<input type="text" value="010" size="3">
+			-
+			<input type="text" size="5">
+			-
+			<input type="text" size="5"> 
+			형식:000-000-000
+			</td>
+		</tr>
+		<tr>
+			<td>직업</td>
+			<td>
+				<select name="b">
+					<option>백수</option>
+			</td>
+		</tr>
+		<tr>
+			<td>생년월일</td>
+			<td>
+				<input type="text">
+			</td>
+		</tr>
+		<tr>
+			<td colspan=2>약관에 동의하십니까?
+				<input type="radio" name="d">예
+				<input type="radio" name="d">아니오
+		 	</td>
+		</tr>
+		<tr>
+			<td colspan=2>
+				<input type="submit" value="가입완료">
+			</td>
+		</tr>
+		</table>
+	</form>
+	</body>
+</html>

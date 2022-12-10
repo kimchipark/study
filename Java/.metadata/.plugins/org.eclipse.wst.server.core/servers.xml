@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="35">
+    <list key="modules" value0="Board02::org.eclipse.jst.jee.server:Board02::jst.web::3.1" value1="ScriptEx01::org.eclipse.jst.jee.server:ScriptEx01::jst.web::3.1" value10="WebChat::org.eclipse.jst.jee.server:WebChat::jst.web::3.1" value2="TestWeb::org.eclipse.jst.jee.server:TestWeb::jst.web::3.1" value3="Board03::org.eclipse.jst.jee.server:Board03::jst.web::3.1" value4="Web08::org.eclipse.jst.jee.server:Web08::jst.web::3.1" value5="Board04::org.eclipse.jst.jee.server:Board04::jst.web::3.1" value6="Script02::org.eclipse.jst.jee.server:Script02::jst.web::3.1" value7="Board01::org.eclipse.jst.jee.server:Board01::jst.web::3.1" value8="lol::org.eclipse.jst.jee.server:lol::jst.web::3.1" value9="Board05::org.eclipse.jst.jee.server:Board05::jst.web::3.1"/>
+  </server>
+</servers>

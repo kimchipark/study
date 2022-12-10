@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.tomato.exerd.core.wizard.NewEXerdWizard">
+	</section>
+	<section name="solution">
+		<item key="shoudReuseColumnForRelation" value="ASK_TO_USER"/>
+		<item key="removeRelation" value="ASK_TO_USER"/>
+		<item key="removeDomain" value="ASK_TO_USER"/>
+		<item key="addTableDiagram" value="ASK_TO_USER"/>
+		<item key="experimentalFunction" value="ASK_TO_USER"/>
+		<item key="outOfSync" value="ASK_TO_USER"/>
+		<item key="removeReferredColumn" value="ASK_TO_USER"/>
+		<item key="sendToBusinessArea" value="ASK_TO_USER"/>
+		<item key="xmlContentWithoutErdxExtension" value="ASK_TO_USER"/>
+		<item key="whenRemoveFK.en" value="ASK_TO_USER"/>
+		<item key="unknownDomain" value="ASK_TO_USER"/>
+		<item key="whenRemoveFK" value="ASK_TO_USER"/>
+	</section>
+	<section name="solutionSelectionDialog">
+		<item key="applyScope" value="1"/>
+	</section>
+</section>

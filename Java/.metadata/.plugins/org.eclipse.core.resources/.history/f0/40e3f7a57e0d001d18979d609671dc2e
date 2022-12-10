@@ -1,0 +1,12 @@
+
+public class Person 
+{
+
+	public static void main(String[] args) 
+	{
+		Calculater cal = new Calculater();
+	
+		cal.PrintStar(8);
+	}
+
+}

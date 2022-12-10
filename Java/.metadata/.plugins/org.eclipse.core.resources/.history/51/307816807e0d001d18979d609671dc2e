@@ -1,0 +1,17 @@
+
+public class Person 
+{
+
+	public static void main(String[] args) 
+	{
+		Calculater cal = new Calculater();
+		
+		cal.MakeSum(10);
+		cal.MakeSum(100);
+		cal.MakeSum(200);
+		
+		cal.PrintStar(8);
+		cal.PrintStar(7);
+	}
+
+}

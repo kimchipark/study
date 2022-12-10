@@ -1,0 +1,16 @@
+
+public class Calculater 
+{
+	public void MakeSum(int max)
+	{
+		int i;
+		
+		int sum = 0 ;
+		
+		for( i = 1; i <= max; i++)
+		{
+			sum += i;
+		}
+		System.out.println(sum);
+	}
+}

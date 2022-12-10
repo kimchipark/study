@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>계산기 연습</title>
+	</head>
+	<body>
+		<a href="cal.do">계산</a>	
+		<br>
+		<a href="cal.do?x=1&y=2&op=*">계산</a>
+		<br>
+		<a href="cal.do?a=1&b=2">계산</a>
+		<form method="post" action="cal.do">
+			<input type="text" size="3" name="x"
+			value="11">
+			<select name="op">
+				<option value="+">더하기</option>
+				<option value="-">빼기</option>
+				<option value="*">곱하기</option>
+				<option value="/">나누기</option>
+			</select>
+			<input type="text" size="3" name="y"
+			value="22">
+			<input type="submit" value="계산">
+		</form>
+	</body>
+</html>

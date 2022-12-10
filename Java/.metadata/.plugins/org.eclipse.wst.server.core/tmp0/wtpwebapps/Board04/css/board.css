@@ -1,0 +1,52 @@
+@charset "EUC-KR";
+
+body
+{
+	background-color:#f4f4f4;	
+}
+
+table
+{
+	background-color:white;
+}
+
+.submenu
+{
+	background-color: #f4f4f4;
+	height: 40px;	
+	text-align: center;			
+}
+
+.submenu:hover
+{
+	background-color: #cccccc;
+}
+
+input:focus, textarea:focus
+{
+	background-color: #C8EFD4;
+}
+
+/*
+a:link, a:visited			
+{ text-decoration:none; margin:0; padding:0; color:#555 }
+a:hover,a:focus
+{ color:#009881; text-decoration:none; margin:0; padding:0; }
+*/
+
+a.btn				{display:inline-block; min-width:60px; height:auto; text-decoration:none !important; padding:6px 10px; color:#fff; font-size:14px; line-height:17px; text-align:center; vertical-align:middle; 
+					font-family:NGB,'나눔고딕',NanumGothic,NG,'돋움',dotum,Helvetica,sans-serif; font-weight:600; /*box-shadow:1px 1px 3px rgba(0,0,0,0.5);*/}
+a.btn:hover			{}
+a.btn.sfn			{margin-left:2px; background:#0078e0; }/*처리용*//*조금작은크기*/
+a.btn.sfnmore		{margin-left:2px; background:#0081a6; }/*처리용다른색*//*조금작은크기*/
+a.btn.sfnr			{margin-left:2px; background:#ff6600; }/*처리용다른색*//*조금작은크기*/
+a.btn.sfnm			{margin-left:2px; background:#f90000; }/*처리용다른색*//*조금작은크기*/
+a.btn.sfno			{margin-left:2px; background:#ea7d35; }/*처리용다른색*//*조금작은크기*/
+a.btn.sfnnomal		{margin-left:2px; background:#788090; }/*일반버튼*//*조금작은크기*/
+
+a.btn.fn			{margin-left:2px; background:#0078e0; padding:8px 10px; }/*처리용*/
+a.btn.fnr			{margin-left:2px; background:#ff6600; padding:8px 10px; }/*처리용 삭제*/
+a.btn.fnmore		{margin-left:2px; background:#0081a6; padding:8px 10px; }/*처리용다른색*/
+a.btn.fnnomal		{margin-left:2px; background:#788090; padding:8px 10px; }/*일반버튼*/
+
+

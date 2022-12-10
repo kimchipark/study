@@ -1,0 +1,16 @@
+
+public class Person 
+{
+
+	public static void main(String[] args) 
+	{
+		Calculater cal = new Calculater();
+	
+		for(int i = 5; i>= 1 ; i--)
+		{
+			cal.PrintStar(i);
+		
+		
+	}
+
+}
